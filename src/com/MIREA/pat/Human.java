@@ -5,4 +5,10 @@ public class Human {
 
     String name;
     public void sayHello(){};
+
+    public void calculate() {
+    }
+
+    public void calc() {
+    }
 }
