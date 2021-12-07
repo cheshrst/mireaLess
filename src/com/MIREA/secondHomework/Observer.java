@@ -37,8 +37,11 @@ public class Observer {
         public void alarm(String alarm){
             for(Flow.Subscriber subscriber : subscribers){
                 System.out.println("Смотритель отправил депешу " + subscriber);
-                subscriber.getAlarm(alarm);
+                Unit.getAlarm(alarm);
                 System.out.println("");
             }
         }
+
+    public void subscribe() {
+    }
 }
